@@ -1,0 +1,13 @@
+Var
+// Seção de Declarações das variáveis 
+ x:inteiro
+ 
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ PARA x de 1 ate 40 faca
+   SE (x%4 = 0) ENTAO
+   ESCREVAL (" pin")
+   SENAO
+   ESCREVA (x)
+ FIMSE
+FIMPARA
